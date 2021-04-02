@@ -1,0 +1,56 @@
+.about-heading {
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  font-weight: 525;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  margin: 0;
+}
+
+.aboutMe .row {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.about-photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.aboutMe p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .about-heading {
+    font-size: 2rem !important;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .aboutMe {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .aboutMe .row {
+    margin-bottom: 2rem;
+  }
+
+  .about-photo-wrap {
+    margin-bottom: 2rem;
+  }
+
+  .profile-img {
+    width: 12.5rem;
+  }
+}

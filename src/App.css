@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-white: #ffffff;
+  --primary-light-gray: #f4f4f4;
+  --primary-medium-gray: #d4d4d4;
+  --primary-gray: #888888;
+  --primary-dark: #343a40;
+  --primary-black: #000000;
+  --primary-darkSE: rgb(52, 58, 64);
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
+  --primary-green: #009e15;
+  --primary-red: #b90000;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+/************************ PARTICLES *********************************/
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}

@@ -1,0 +1,60 @@
+.header-wraper {
+  position: relative;
+  background: url(portfolio-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-white);
+  text-transform: uppercase;
+  font-weight: 525;
+  padding: 5rem;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-gray);
+}
+
+.btn-main-offer {
+  border: 0.0625rem solid var(--primary-gray);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  font-weight: 525;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  color: var(--primary-white);
+  background-color: var(--primary-gray);
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .main-info h1 {
+    font-size: 2rem !important;
+    padding: 0.5rem;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
