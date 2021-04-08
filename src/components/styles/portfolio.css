@@ -26,7 +26,7 @@
   opacity: 0%;
   background: var(--primary-black);
   top: 0;
-  width: 90%;
+  width: 89%;
   height: 76%;
   cursor: pointer;
 }
@@ -108,8 +108,8 @@
 
 @media (max-width: 575px) {
   .overlay {
-    width: 93.2%;
-    height: 83%;
+    width: 92%;
+    height: 81%;
   }
 
   .portfolio-icon {
