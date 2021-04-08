@@ -89,30 +89,30 @@ const Footer = () => {
             <div className="fpos2">
               <div className="d-flex justify-content-center pt-1">
                 <FacebookShareButton
-                  url={"https://www.google.com"}
-                  quote={"Google"}
-                  hashtag="#javascript"
+                  url={"https://matijakocevar.github.io/myPortfolio/"}
+                  quote={"Matija Kočevar's portfolio"}
+                  hashtag="#ReactJS"
                 >
                   <FacebookIcon className="mx-3" size={36} />
                 </FacebookShareButton>
                 <TwitterShareButton
-                  url={"https://www.google.com"}
-                  quote={"Google"}
-                  hashtag="#javascript"
+                  url={"https://matijakocevar.github.io/myPortfolio/"}
+                  quote={"Matija Kočevar's portfolio"}
+                  hashtag="#ReactJS"
                 >
                   <TwitterIcon className="mx-3" size={36} />
                 </TwitterShareButton>
                 <RedditShareButton
-                  url={"https://www.google.com"}
-                  quote={"Google"}
-                  hashtag="#javascript"
+                  url={"https://matijakocevar.github.io/myPortfolio/"}
+                  quote={"Matija Kočevar's portfolio"}
+                  hashtag="#ReactJS"
                 >
                   <RedditIcon className="mx-3" size={36} />
                 </RedditShareButton>
                 <LinkedinShareButton
-                  url={"https://www.google.com"}
-                  quote={"Google"}
-                  hashtag="#javascript"
+                  url={"https://matijakocevar.github.io/myPortfolio/"}
+                  quote={"Matija Kočevar's portfolio"}
+                  hashtag="#ReactJS"
                 >
                   <LinkedinIcon className="mx-3" size={36} />
                 </LinkedinShareButton>

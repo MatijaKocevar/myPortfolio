@@ -15,11 +15,14 @@ const Portfolio = () => {
   const openPopupboxProject1 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={project1} alt="Project 1" />
-        <p>PROJECT 1</p>
+        <img className="portfolio-image-popupbox" src={project1} alt="Portfolio webpage" />
+        <p>My first webpage, made using ReactJS</p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://www.google.com")}>
-          Google
+        <a
+          className="hyper-link"
+          onClick={() => window.open("https://github.com/MatijaKocevar/myPortfolio/tree/main")}
+        >
+          GitHub
         </a>
       </>
     );
@@ -27,7 +30,7 @@ const Portfolio = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "Project 1",
+        text: "Portfolio webpage",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -117,30 +120,30 @@ const Portfolio = () => {
         <h1 className="text-uppercase text-center">portfolio</h1>
         <div className="image-box-wrapper row">
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject1}>
-            <div className="overflow "></div>
-            <img className="portfolio-image" src={project1} alt="Project 1..." />
+            <img className="portfolio-image" src={project1} alt="Portfolio webpage" />
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            <h3>Project 1</h3>
+            <div className="overlay"></div>
+            <h3>Portfolio webpage</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject2}>
-            <div className="overflow"></div>
             <img className="portfolio-image" src={project2} alt="Project 2..." />
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div className="overlay"></div>
             <h3>Project 2</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject3}>
-            <div className="overflow"></div>
             <img className="portfolio-image" src={project3} alt="Project 3..." />
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div className="overlay"></div>
             <h3>Project 3</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject4}>
-            <div className="overflow"></div>
             <img className="portfolio-image" src={project4} alt="Project 4..." />
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div className="overlay"></div>
             <h3>Project 4</h3>
           </div>
         </div>

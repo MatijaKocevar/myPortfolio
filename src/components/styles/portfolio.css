@@ -1,7 +1,7 @@
 .portfolio-wrapper {
   background: var(--primary-light-gray);
   text-align: center;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .portfolio-wrapper h1 {
@@ -12,45 +12,36 @@
 }
 
 .portfolio-wrapper h3 {
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0.5rem 0;
   text-align: center;
-  margin-bottom: 0;
 }
 
 .portfolio-image {
   width: 100%;
-  height: 70%;
-  border: 0.0625rem solid var(--primary-gray);
+  border: 0.625rem solid var(--primary-gray);
 }
 
-.overflow {
+.overlay {
   position: absolute;
-  opacity: 0;
+  opacity: 0%;
   background: var(--primary-black);
   top: 0;
-  width: 90%;
-  height: 70%;
-  border: 0.625rem solid var(--primary-dark);
+  width: 89%;
+  height: 76%;
   cursor: pointer;
 }
 
-.portfolio-image-box:hover .overflow {
+.overlay:hover {
   opacity: 60%;
   transition: 0.2s ease-in-out;
-}
-
-.portfolio-image-box:hover .portfolio-icon {
-  opacity: 70%;
-  transition: 0.2s ease-in-out;
-  cursor: pointer;
 }
 
 .portfolio-icon {
   position: absolute;
   opacity: 100%;
-  top: 30%;
+  top: 35%;
   left: 45%;
-  color: var(--primary-medium-gray);
+  color: var(--primary-gray);
   font-size: 1.5rem;
 }
 
@@ -76,19 +67,53 @@
   color: var(--primary-dark);
 }
 
+@media (max-width: 1199px) {
+  .overlay {
+    width: 88%;
+    height: 73%;
+  }
+
+  .portfolio-icon {
+    top: 33%;
+  }
+}
+
 @media (max-width: 991px) {
+  .overlay {
+    width: 91.5%;
+    height: 79%;
+  }
+
+  .portfolio-icon {
+    top: 36%;
+  }
+
   .portfolio-wrapper .container {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .overflow {
-    width: 92%;
   }
 
   .portfolio-wrapper h1 {
     font-size: 2rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .overlay {
+    width: 88.5%;
+    height: 73%;
+  }
+}
+
+@media (max-width: 575px) {
+  .overlay {
+    width: 93.2%;
+    height: 83%;
+  }
+
+  .portfolio-icon {
+    top: 37%;
   }
 }
