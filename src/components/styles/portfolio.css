@@ -26,19 +26,18 @@
   opacity: 0%;
   background: var(--primary-black);
   top: 0;
-  width: 89%;
+  width: 90%;
   height: 76%;
   cursor: pointer;
 }
 
 .overlay:hover {
-  opacity: 60%;
+  opacity: 0.6;
   transition: 0.2s ease-in-out;
 }
 
 .portfolio-icon {
   position: absolute;
-  opacity: 100%;
   top: 35%;
   left: 45%;
   color: var(--primary-gray);
