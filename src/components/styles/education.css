@@ -29,7 +29,7 @@
   margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
-  background: var(--primary-blue);
+  background: var(--primary-dark);
   z-index: 1;
 }
 

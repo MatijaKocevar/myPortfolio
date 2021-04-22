@@ -24,7 +24,6 @@
 .profile-img {
   width: 20rem;
   border-radius: 50%;
-  border: 0.5rem solid var(--primary-blue);
 }
 
 .aboutMe p {
