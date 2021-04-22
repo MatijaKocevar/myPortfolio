@@ -8,9 +8,10 @@
   --primary-dark: #343a40;
   --primary-black: #000000;
   --primary-darkSE: rgb(52, 58, 64);
-  --primary-transparent-black: rgba(0, 0, 0, 0.7);
+  --primary-transparent-black: rgba(0, 0, 0, 0.8);
   --primary-green: #009e15;
   --primary-red: #b90000;
+  --primary-blue: #224693;
 }
 
 body {

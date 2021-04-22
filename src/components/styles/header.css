@@ -33,11 +33,12 @@
 }
 
 .btn-main-offer {
-  border: 0.0625rem solid var(--primary-gray);
+  border: 0.0625rem solid var(--primary-light-gray);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  background-color: var(--primary-dark);
+  color: var(--primary-light-gray);
   margin: 2rem;
   font-weight: 525;
 }
@@ -45,7 +46,7 @@
 .btn-main-offer:hover {
   text-decoration: none;
   color: var(--primary-white);
-  background-color: var(--primary-gray);
+  background-color: var(--primary-blue);
   transition: 0.2s ease-in-out;
 }
 

@@ -1,6 +1,7 @@
 import "./App.css";
 import "./components/styles/aboutMe.css";
 import "./components/styles/contacts.css";
+import "./components/styles/education.css";
 import "./components/styles/experience.css";
 import "./components/styles/footer.css";
 import "./components/styles/header.css";
@@ -14,6 +15,7 @@ import NavBar from "./components/navbar";
 import Header from "./components/header";
 import AboutMe from "./components/aboutMe";
 import Services from "./components/services";
+import Education from "./components/education";
 import Experience from "./components/experience";
 import Portfolio from "./components/portfolio";
 import Testimonials from "./components/testimonials";
@@ -47,6 +49,7 @@ function App() {
       <NavBar />
       <Header />
       <AboutMe />
+      <Education />
       <Experience />
       <Services />
       <Portfolio />

@@ -48,6 +48,19 @@ const NavBar = () => {
               <li className="nav-item">
                 <Link
                   smooth={true}
+                  to="education"
+                  offset={offset}
+                  ignoreCancelEvents={true}
+                  className="nav-link"
+                  href="#"
+                >
+                  education
+                </Link>
+              </li>
+              {/* - */}
+              <li className="nav-item">
+                <Link
+                  smooth={true}
                   to="experience"
                   offset={offset}
                   ignoreCancelEvents={true}
@@ -67,7 +80,7 @@ const NavBar = () => {
                   className="nav-link"
                   href="#"
                 >
-                  services
+                  skills
                 </Link>
               </li>
               {/* - */}
@@ -93,20 +106,7 @@ const NavBar = () => {
                   className="nav-link"
                   href="#"
                 >
-                  clients
-                </Link>
-              </li>
-              {/* - */}
-              <li className="nav-item">
-                <Link
-                  smooth={true}
-                  to="contacts"
-                  offset={offset}
-                  ignoreCancelEvents={true}
-                  className="nav-link"
-                  href="#"
-                >
-                  contact
+                  interests
                 </Link>
               </li>
             </ul>

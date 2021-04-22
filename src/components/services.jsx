@@ -1,12 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faTable, faPaintBrush, faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 const Service = () => {
   return (
     <div id="service" className="services">
-      <h1>my services</h1>
+      <h1>Skills</h1>
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-6">
@@ -14,8 +14,28 @@ const Service = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
               </div>
-              <h3>Service 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>PC & Mobile repair</h3>
+              <p>Harware and software configuring, problem solving, tech support</p>
+            </div>
+          </div>
+          {/* - */}
+          <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faPaintBrush} size="2x" />
+              </div>
+              <h3>Basic design skills</h3>
+              <p>Adobe Illustrator, Photoshop, Premiere</p>
+            </div>
+          </div>
+          {/* - */}
+          <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faTable} size="2x" />
+              </div>
+              <h3>Data visualising</h3>
+              <p>Advanced knowledge of Microsoft Excel and a good grasp of how to display important data.</p>
             </div>
           </div>
           {/* - */}
@@ -24,28 +44,8 @@ const Service = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
-              <h3>Service 2</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          {/* - */}
-          <div className="col-lg-3 col-md-6 col-sm-6">
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
-              </div>
-              <h3>Service 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          {/* - */}
-          <div className="col-lg-3 col-md-6 col-sm-6">
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
-              </div>
-              <h3>Service 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Web development</h3>
+              <p>Basic HTML, CSS & Javascript </p>
             </div>
           </div>
         </div>

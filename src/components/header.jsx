@@ -13,10 +13,10 @@ const Header = () => {
   return (
     <div id="home" className="header-wraper">
       <div className="main-info">
-        <h1>CURRICULUM VITAE</h1>
+        <h1>ONLINE RESUME</h1>
         <Typed
           className="typed-text"
-          strings={["Programmer", "Salesman", "Technician"]}
+          strings={["Creative", "Hard working", "Positive"]}
           typeSpeed={40}
           backSpeed={60}
           loop

@@ -1,8 +1,6 @@
 import React from "react";
 import project1 from "../images/project1.png";
-import project2 from "../images/project2.png";
-import project3 from "../images/project3.png";
-import project4 from "../images/project4.png";
+import woi from "../images/woi.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -30,7 +28,7 @@ const Portfolio = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "Portfolio webpage",
+        text: "Online resume",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -43,11 +41,11 @@ const Portfolio = () => {
   const openPopupboxProject2 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={project2} alt="Project 2" />
-        <p>PROJECT 2</p>
+        <img className="portfolio-image-popupbox" src={woi} alt="..." />
+        <p>...</p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://www.google.com")}>
-          Google
+        <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
+          GitHub
         </a>
       </>
     );
@@ -55,7 +53,7 @@ const Portfolio = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "Project 2",
+        text: "...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -68,11 +66,11 @@ const Portfolio = () => {
   const openPopupboxProject3 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={project3} alt="Project 3" />
-        <p>PROJECT 3</p>
+        <img className="portfolio-image-popupbox" src={woi} alt="..." />
+        <p>...</p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://www.google.com")}>
-          Google
+        <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
+          GitHub
         </a>
       </>
     );
@@ -80,7 +78,7 @@ const Portfolio = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "Project 3",
+        text: "...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -93,11 +91,11 @@ const Portfolio = () => {
   const openPopupboxProject4 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={project4} alt="Project 4" />
-        <p>PROJECT 4</p>
+        <img className="portfolio-image-popupbox" src={woi} alt="..." />
+        <p>...</p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://www.google.com")}>
-          Google
+        <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
+          GitHub
         </a>
       </>
     );
@@ -105,7 +103,7 @@ const Portfolio = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "Project 4",
+        text: "...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -120,31 +118,39 @@ const Portfolio = () => {
         <h1 className="text-uppercase text-center">portfolio</h1>
         <div className="image-box-wrapper row">
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject1}>
-            <img className="portfolio-image" src={project1} alt="Portfolio webpage" />
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            <div className="overlay"></div>
-            <h3>Portfolio webpage</h3>
+            <div className="project-wrapper">
+              <img className="portfolio-image" src={project1} alt="Portfolio webpage" />
+              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <div className="overlay"></div>
+            </div>
+            <h3>Online resume</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject2}>
-            <img className="portfolio-image" src={project2} alt="Project 2..." />
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            <div className="overlay"></div>
-            <h3>Project 2</h3>
+            <div className="project-wrapper">
+              <img className="portfolio-image" src={woi} alt="Project 2..." />
+              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <div className="overlay"></div>
+            </div>
+            <h3>...</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject3}>
-            <img className="portfolio-image" src={project3} alt="Project 3..." />
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            <div className="overlay"></div>
-            <h3>Project 3</h3>
+            <div className="project-wrapper">
+              <img className="portfolio-image" src={woi} alt="Project 3..." />
+              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <div className="overlay"></div>
+            </div>
+            <h3>...</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject4}>
-            <img className="portfolio-image" src={project4} alt="Project 4..." />
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-            <div className="overlay"></div>
-            <h3>Project 4</h3>
+            <div className="project-wrapper">
+              <img className="portfolio-image" src={woi} alt="Project 4..." />
+              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <div className="overlay"></div>
+            </div>
+            <h3>...</h3>
           </div>
         </div>
       </div>

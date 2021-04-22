@@ -34,18 +34,18 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 text-center">
             <div className="row">
               <div className="col">
-                <Link smooth={true} to="home" offset={offset} ignoreCancelEvents={true} href="#">
-                  Home
+                <Link smooth={true} to="about-me" offset={offset} ignoreCancelEvents={true} href="#">
+                About Me
                 </Link>
                 <br />
                 <Link
                   smooth={true}
-                  to="about-me"
+                  to="education"
                   offset={offset}
                   ignoreCancelEvents={true}
                   href="#"
                 >
-                  About Me
+                  Education
                 </Link>
                 <br />
                 <Link
@@ -59,8 +59,8 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="col">
-                <Link smooth={true} to="service" offset={offset} ignoreCancelEvents={true} href="#">
-                  Services
+                <Link smooth={true} to="services" offset={offset} ignoreCancelEvents={true} href="#">
+                  Skills
                 </Link>
                 <br />
                 <Link
@@ -80,14 +80,14 @@ const Footer = () => {
                   ignoreCancelEvents={true}
                   href="#"
                 >
-                  Clients
+                  Interests
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-12">
             <div className="fpos2">
-              <div className="d-flex justify-content-center pt-1">
+              <div className="d-flex justify-content-center pt-3">
                 <FacebookShareButton
                   url={"https://matijakocevar.github.io/myPortfolio/"}
                   quote={"Matija Kočevar's portfolio"}
@@ -117,10 +117,6 @@ const Footer = () => {
                   <LinkedinIcon className="mx-3" size={36} />
                 </LinkedinShareButton>
               </div>
-              <p className="pt-2 text-center">
-                Copyright&copy;
-                {new Date().getFullYear()}&nbsp;M.K.
-              </p>
             </div>
           </div>
         </div>

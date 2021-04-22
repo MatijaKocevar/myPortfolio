@@ -1,11 +1,10 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// AVATARS IMPORTS
-import avatar1 from "../images/avatars/avatar-1.png";
-import avatar2 from "../images/avatars/avatar-2.png";
-import avatar3 from "../images/avatars/avatar-3.png";
-import avatar4 from "../images/avatars/avatar-4.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faLightbulb, faTerminal, faLaptopCode, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+
 
 const TestimonialsCarousel = () => {
   return (
@@ -18,42 +17,46 @@ const TestimonialsCarousel = () => {
       interval={3000}
     >
       <>
-        <img src={avatar1} alt="Satisfied customer #1" />
+        <div className="bgcircle">
+        <FontAwesomeIcon className="bgicon" icon={faTerminal} size="2x" />
+        </div>
         <div className="myCarousel">
-          <h3>Satisfied customer #1</h3>
+          <h3>Become a better frontend developer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe
-            dicta blanditiis, molestias eum excepturi quod fugiat veniam!
+            I am doing everything I can to further my skills and knowledge.
           </p>
         </div>
       </>
       <>
-        <img src={avatar2} alt="Satisfied customer #2" />
+      <div className="bgcircle">
+        <FontAwesomeIcon className="bgicon" icon={faLaptopCode} size="2x" />
+        </div>
         <div className="myCarousel">
-          <h3>Satisfied customer #2</h3>
+          <h3>Get an IT job</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe
-            dicta blanditiis, molestias eum excepturi quod fugiat veniam!
+            One of my biggest interests for most of my life. As a person who learns by doing, the possibility of working in IT would give me huge amounts of experience.
           </p>
         </div>
       </>
       <>
-        <img src={avatar3} alt="Satisfied customer #3" />
+      <div className="bgcircle">
+        <FontAwesomeIcon className="bgicon" icon={faMobileAlt} size="2x" />
+        </div>
         <div className="myCarousel">
-          <h3>Satisfied customer #3</h3>
+          <h3>Create an amazing app</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe
-            dicta blanditiis, molestias eum excepturi quod fugiat veniam!
+            I want to gain enough skills to create a useful and entertaining app.
           </p>
         </div>
       </>
       <>
-        <img src={avatar4} alt="Satisfied customer #4" />
+      <div className="bgcircle">
+        <FontAwesomeIcon className="bgicon" icon={faLightbulb} size="2x" />
+        </div>
         <div className="myCarousel">
-          <h3>Satisfied customer #4</h3>
+          <h3>Learn new skills</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe
-            dicta blanditiis, molestias eum excepturi quod fugiat veniam!
+            I am always on the hunt for new knowledge and opportunities to expand what i know. 
           </p>
         </div>
       </>

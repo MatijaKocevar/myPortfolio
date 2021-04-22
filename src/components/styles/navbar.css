@@ -17,7 +17,7 @@ nav .container {
 
 .logo {
   width: 15rem;
-  /* padding: 0.5rem; */
+  padding: 0.5rem;
 }
 
 nav a.nav-link {
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a:hover {
-  border-bottom: 0.1875rem solid var(--primary-gray);
+  border-bottom: 0.1875rem solid var(--primary-blue);
 }
 
 @media (max-width: 991px) {

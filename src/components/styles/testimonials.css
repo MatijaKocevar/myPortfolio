@@ -21,6 +21,24 @@
   background: var(--primary-transparent-black);
 }
 
+.bgcircle {
+  position: relative;
+  margin: 0.375rem auto;
+  background: var(--primary-blue);
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.bgicon {
+  font-size: 5rem;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .myCarousel {
   color: var(--primary-white);
   background: transparent;
@@ -38,11 +56,6 @@
 
 .myCarousel p {
   color: var(--primary-gray);
-}
-
-.carousel .slide img {
-  width: 10rem !important;
-  border-radius: 50%;
 }
 
 .carousel .slide {
