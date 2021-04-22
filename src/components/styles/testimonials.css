@@ -24,10 +24,14 @@
 .bgcircle {
   position: relative;
   margin: 0.375rem auto;
-  background: var(--primary-blue);
+  background: var(--primary-dark);
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+}
+
+.bgcircle:hover {
+  background: var(--primary-blue);
 }
 
 .bgicon {

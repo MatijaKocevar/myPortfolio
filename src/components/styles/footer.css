@@ -11,7 +11,8 @@
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--primary-black);
+  color: var(--primary-white);
+  border-bottom: 0.2rem solid var(--primary-blue);
   cursor: pointer;
 }
 

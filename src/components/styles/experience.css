@@ -32,6 +32,11 @@
   z-index: 1;
 }
 
+.timeline-block:hover .marker {
+  border: 0.325rem solid var(--primary-blue);
+  background: var(--primary-blue);
+}
+
 .timeline-block {
   width: calc(50% + 0.5rem);
   display: flex;
@@ -54,8 +59,8 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.325rem solid var(--primary-blue);
-  background: var(--primary-blue);
+  border: 0.325rem solid var(--primary-dark);
+  background: var(--primary-dark);
   margin-top: 0.5rem;
   z-index: 3;
 }
