@@ -115,7 +115,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center">portfolio</h1>
+        <h1 className="text-uppercase text-center">projects</h1>
         <div className="image-box-wrapper row">
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject1}>
             <div className="project-wrapper">

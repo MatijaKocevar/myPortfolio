@@ -50,17 +50,21 @@
 .services .box:hover {
   background: var(--primary-gray);
   border-bottom: 0.3125rem solid var(--primary-blue);
+  transition: 0.2s ease-in-out;
 }
 
 .services .box:hover .circle {
   background: var(--primary-blue);
+  transition: 0.2s ease-in-out;
 }
 
 .services .box:hover {
   color: var(--primary-white);
+  transition: 0.2s ease-in-out;
 }
 .services .box:hover h3 {
   color: var(--primary-white);
+  transition: 0.2s ease-in-out;
 }
 
 @media (max-width: 991px) {

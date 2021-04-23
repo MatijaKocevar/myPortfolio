@@ -17,6 +17,7 @@
 
 .project-wrapper:hover .portfolio-image {
   border: 0.5rem solid var(--primary-blue);
+  transition: 0.2s ease-in-out;
 }
 
 .portfolio-image {
@@ -49,6 +50,7 @@
 
 .project-wrapper:hover .portfolio-icon {
   color: var(--primary-blue);
+  transition: 0.2s ease-in-out;
 }
 
 .popupbox-wrapper {

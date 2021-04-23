@@ -5,11 +5,47 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
-  let startingOffset = window.innerWidth < 768 ? -63 : window.innerWidth < 992 ? -67 : -88;
+  let startingOffset =
+    window.innerWidth < 768
+      ? -61
+      : window.innerWidth < 991
+      ? -61
+      : window.innerWidth < 1199
+      ? -61
+      : -86;
+
+  let startingToggle =
+    window.innerWidth < 768
+      ? "collapse"
+      : window.innerWidth < 991
+      ? "collapse"
+      : window.innerWidth < 1199
+      ? "keep"
+      : "keep";
+
   const [offset, setOffset] = useState(startingOffset);
 
+  const [toggle, setToggle] = useState(startingToggle);
+
   window.addEventListener("resize", () => {
-    setOffset(window.innerWidth < 768 ? -63 : window.innerWidth < 992 ? -67 : -88);
+    setOffset(
+      window.innerWidth < 768
+        ? -61
+        : window.innerWidth < 991
+        ? -61
+        : window.innerWidth < 1199
+        ? -61
+        : -86
+    );
+    setToggle(
+      window.innerWidth < 768
+        ? "collapse"
+        : window.innerWidth < 991
+        ? "collapse"
+        : window.innerWidth < 1199
+        ? "keep"
+        : "keep"
+    );
   });
 
   return (
@@ -32,7 +68,7 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              <li className="nav-item active">
                 <Link
                   smooth={true}
                   to="about-me"
@@ -40,6 +76,8 @@ const NavBar = () => {
                   ignoreCancelEvents={true}
                   className="nav-link"
                   href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
                 >
                   about me
                 </Link>
@@ -53,6 +91,8 @@ const NavBar = () => {
                   ignoreCancelEvents={true}
                   className="nav-link"
                   href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
                 >
                   education
                 </Link>
@@ -66,6 +106,8 @@ const NavBar = () => {
                   ignoreCancelEvents={true}
                   className="nav-link"
                   href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
                 >
                   experience
                 </Link>
@@ -79,6 +121,8 @@ const NavBar = () => {
                   ignoreCancelEvents={true}
                   className="nav-link"
                   href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
                 >
                   skills
                 </Link>
@@ -92,8 +136,10 @@ const NavBar = () => {
                   ignoreCancelEvents={true}
                   className="nav-link"
                   href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
                 >
-                  portfolio
+                  projects
                 </Link>
               </li>
               {/* - */}
@@ -105,8 +151,25 @@ const NavBar = () => {
                   ignoreCancelEvents={true}
                   className="nav-link"
                   href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
                 >
                   interests
+                </Link>
+              </li>
+              {/* - */}
+              <li className="nav-item">
+                <Link
+                  smooth={true}
+                  to="contacts"
+                  offset={offset}
+                  ignoreCancelEvents={true}
+                  className="nav-link"
+                  href="#"
+                  data-bs-toggle={toggle}
+                  data-bs-target="#navbarNav"
+                >
+                  contact me
                 </Link>
               </li>
             </ul>

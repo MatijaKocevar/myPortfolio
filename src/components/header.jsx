@@ -3,17 +3,32 @@ import Typed from "react-typed";
 import { Link } from "react-scroll";
 
 const Header = () => {
-  let startingOffset = window.innerWidth < 768 ? -63 : window.innerWidth < 992 ? -67 : -88;
+  let startingOffset =
+    window.innerWidth < 768
+      ? -61
+      : window.innerWidth < 991
+      ? -61
+      : window.innerWidth < 1199
+      ? -61
+      : -86;
   const [offset, setOffset] = useState(startingOffset);
 
   window.addEventListener("resize", () => {
-    setOffset(window.innerWidth < 768 ? -63 : window.innerWidth < 992 ? -67 : -88);
+    setOffset(
+      window.innerWidth < 768
+        ? -61
+        : window.innerWidth < 991
+        ? -61
+        : window.innerWidth < 1199
+        ? -61
+        : -86
+    );
   });
 
   return (
     <div id="home" className="header-wraper">
       <div className="main-info">
-        <h1>ONLINE RESUME</h1>
+        <h1>portfolio</h1>
         <Typed
           className="typed-text"
           strings={["Creative", "Hard working", "Positive"]}

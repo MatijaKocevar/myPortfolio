@@ -34,8 +34,14 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 text-center">
             <div className="row">
               <div className="col">
-                <Link smooth={true} to="about-me" offset={offset} ignoreCancelEvents={true} href="#">
-                About Me
+                <Link
+                  smooth={true}
+                  to="about-me"
+                  offset={offset}
+                  ignoreCancelEvents={true}
+                  href="#"
+                >
+                  About Me
                 </Link>
                 <br />
                 <Link
@@ -59,7 +65,13 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="col">
-                <Link smooth={true} to="services" offset={offset} ignoreCancelEvents={true} href="#">
+                <Link
+                  smooth={true}
+                  to="services"
+                  offset={offset}
+                  ignoreCancelEvents={true}
+                  href="#"
+                >
                   Skills
                 </Link>
                 <br />
@@ -70,7 +82,7 @@ const Footer = () => {
                   ignoreCancelEvents={true}
                   href="#"
                 >
-                  Portfolio
+                  Projects
                 </Link>
                 <br />
                 <Link
