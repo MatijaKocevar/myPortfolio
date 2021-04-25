@@ -5,7 +5,7 @@ import { faTable, faPaintBrush, faDesktop, faFileCode } from "@fortawesome/free-
 
 const Service = () => {
   return (
-    <div id="service" className="services">
+    <div id="skill" className="skills">
       <h1>Skills</h1>
       <div className="container">
         <div className="row">
@@ -35,7 +35,10 @@ const Service = () => {
                 <FontAwesomeIcon className="icon" icon={faTable} size="2x" />
               </div>
               <h3>Data visualising</h3>
-              <p>Advanced knowledge of Microsoft Excel and a good grasp of how to display important data.</p>
+              <p>
+                Advanced knowledge of Microsoft Excel and a good grasp of how to display important
+                data.
+              </p>
             </div>
           </div>
           {/* - */}

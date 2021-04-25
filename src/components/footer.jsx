@@ -65,19 +65,13 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="col">
-                <Link
-                  smooth={true}
-                  to="services"
-                  offset={offset}
-                  ignoreCancelEvents={true}
-                  href="#"
-                >
+                <Link smooth={true} to="skills" offset={offset} ignoreCancelEvents={true} href="#">
                   Skills
                 </Link>
                 <br />
                 <Link
                   smooth={true}
-                  to="portfolio"
+                  to="projects"
                   offset={offset}
                   ignoreCancelEvents={true}
                   href="#"
@@ -87,7 +81,7 @@ const Footer = () => {
                 <br />
                 <Link
                   smooth={true}
-                  to="testimonials"
+                  to="interests"
                   offset={offset}
                   ignoreCancelEvents={true}
                   href="#"

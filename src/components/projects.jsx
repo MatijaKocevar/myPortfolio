@@ -8,12 +8,12 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
-const Portfolio = () => {
+const Projects = () => {
   // Project 1
   const openPopupboxProject1 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={project1} alt="Portfolio webpage" />
+        <img className="projects-image-popupbox" src={project1} alt="Online resume" />
         <p>My first webpage, made using ReactJS</p>
         <b>Link:</b>{" "}
         <a
@@ -41,7 +41,7 @@ const Portfolio = () => {
   const openPopupboxProject2 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={woi} alt="..." />
+        <img className="projects-image-popupbox" src={woi} alt="..." />
         <p>...</p>
         <b>Link:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
@@ -66,7 +66,7 @@ const Portfolio = () => {
   const openPopupboxProject3 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={woi} alt="..." />
+        <img className="projects-image-popupbox" src={woi} alt="..." />
         <p>...</p>
         <b>Link:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
@@ -91,7 +91,7 @@ const Portfolio = () => {
   const openPopupboxProject4 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={woi} alt="..." />
+        <img className="projects-image-popupbox" src={woi} alt="..." />
         <p>...</p>
         <b>Link:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
@@ -113,14 +113,14 @@ const Portfolio = () => {
   };
 
   return (
-    <div id="portfolio" className="portfolio-wrapper">
+    <div id="projects" className="projects-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center">projects</h1>
         <div className="image-box-wrapper row">
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject1}>
             <div className="project-wrapper">
-              <img className="portfolio-image" src={project1} alt="Portfolio webpage" />
-              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <img className="projects-image" src={project1} alt="projects webpage" />
+              <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
               <div className="overlay"></div>
             </div>
             <h3>Online resume</h3>
@@ -128,8 +128,8 @@ const Portfolio = () => {
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject2}>
             <div className="project-wrapper">
-              <img className="portfolio-image" src={woi} alt="Project 2..." />
-              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <img className="projects-image" src={woi} alt="Project 2..." />
+              <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
               <div className="overlay"></div>
             </div>
             <h3>...</h3>
@@ -137,8 +137,8 @@ const Portfolio = () => {
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject3}>
             <div className="project-wrapper">
-              <img className="portfolio-image" src={woi} alt="Project 3..." />
-              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <img className="projects-image" src={woi} alt="Project 3..." />
+              <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
               <div className="overlay"></div>
             </div>
             <h3>...</h3>
@@ -146,8 +146,8 @@ const Portfolio = () => {
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject4}>
             <div className="project-wrapper">
-              <img className="portfolio-image" src={woi} alt="Project 4..." />
-              <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+              <img className="projects-image" src={woi} alt="Project 4..." />
+              <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
               <div className="overlay"></div>
             </div>
             <h3>...</h3>
@@ -159,4 +159,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

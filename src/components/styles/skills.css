@@ -1,9 +1,9 @@
-.services {
+.skills {
   text-align: center;
   background-color: var(--primary-light-gray);
 }
 
-.services h1 {
+.skills h1 {
   color: var(--primary-dark);
   text-transform: uppercase;
   font-weight: 525;
@@ -12,15 +12,15 @@
   padding-bottom: 3rem;
 }
 
-.services h3 {
+.skills h3 {
   color: var(--primary-dark);
 }
 
-.services .container {
+.skills .container {
   padding-bottom: 1.5rem;
 }
 
-.services .circle {
+.skills .circle {
   position: relative;
   margin: 0.375rem auto;
   background: var(--primary-dark);
@@ -29,7 +29,7 @@
   height: 3.125rem;
 }
 
-.services .icon {
+.skills .icon {
   font-size: 1.4rem;
   color: var(--primary-white);
   position: absolute;
@@ -38,7 +38,7 @@
   transform: translate(-50%, -50%);
 }
 
-.services .box {
+.skills .box {
   height: 16rem;
   border-bottom: 0.3125rem solid var(--primary-gray);
   padding: 0.5rem;
@@ -47,38 +47,38 @@
   margin-bottom: 1.5rem;
 }
 
-.services .box:hover {
+.skills .box:hover {
   background: var(--primary-gray);
   border-bottom: 0.3125rem solid var(--primary-blue);
   transition: 0.2s ease-in-out;
 }
 
-.services .box:hover .circle {
+.skills .box:hover .circle {
   background: var(--primary-blue);
   transition: 0.2s ease-in-out;
 }
 
-.services .box:hover {
+.skills .box:hover {
   color: var(--primary-white);
   transition: 0.2s ease-in-out;
 }
-.services .box:hover h3 {
+.skills .box:hover h3 {
   color: var(--primary-white);
   transition: 0.2s ease-in-out;
 }
 
 @media (max-width: 991px) {
-  .services .container {
+  .skills .container {
     padding-bottom: 1rem;
     padding-right: 2rem;
     padding-left: 2rem;
   }
 
-  .services .box {
+  .skills .box {
     margin-bottom: 2rem;
   }
 
-  .services h1 {
+  .skills h1 {
     font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;

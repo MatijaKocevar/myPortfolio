@@ -116,7 +116,7 @@ const NavBar = () => {
               <li className="nav-item">
                 <Link
                   smooth={true}
-                  to="service"
+                  to="skills"
                   offset={offset}
                   ignoreCancelEvents={true}
                   className="nav-link"
@@ -131,7 +131,7 @@ const NavBar = () => {
               <li className="nav-item">
                 <Link
                   smooth={true}
-                  to="portfolio"
+                  to="projects"
                   offset={offset}
                   ignoreCancelEvents={true}
                   className="nav-link"
@@ -146,7 +146,7 @@ const NavBar = () => {
               <li className="nav-item">
                 <Link
                   smooth={true}
-                  to="testimonials"
+                  to="interests"
                   offset={offset}
                   ignoreCancelEvents={true}
                   className="nav-link"
