@@ -30,8 +30,9 @@
   height: 10rem;
 }
 
-.bgcircle:hover {
+.interests-content:hover .bgcircle {
   background: var(--primary-blue);
+  transition: 0.4s ease-in-out;
 }
 
 .bgicon {

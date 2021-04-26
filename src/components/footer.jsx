@@ -12,11 +12,11 @@ import {
 import { Link } from "react-scroll";
 
 const Footer = () => {
-  let startingOffset = window.innerWidth < 768 ? -63 : window.innerWidth < 992 ? -67 : -88;
+  let startingOffset = window.innerWidth < 1199 ? -61 : -86;
   const [offset, setOffset] = useState(startingOffset);
 
   window.addEventListener("resize", () => {
-    setOffset(window.innerWidth < 768 ? -63 : window.innerWidth < 992 ? -67 : -88);
+    setOffset(window.innerWidth < 1199 ? -61 : -86);
   });
 
   return (

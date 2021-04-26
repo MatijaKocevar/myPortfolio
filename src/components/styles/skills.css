@@ -43,28 +43,25 @@
   border-bottom: 0.3125rem solid var(--primary-gray);
   padding: 0.5rem;
   background: var(--primary-white);
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
   margin-bottom: 1.5rem;
 }
 
 .skills .box:hover {
   background: var(--primary-gray);
   border-bottom: 0.3125rem solid var(--primary-blue);
-  transition: 0.2s ease-in-out;
+  color: var(--primary-white);
+  transition: 0.4s ease-in-out;
 }
 
 .skills .box:hover .circle {
   background: var(--primary-blue);
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
-.skills .box:hover {
-  color: var(--primary-white);
-  transition: 0.2s ease-in-out;
-}
 .skills .box:hover h3 {
   color: var(--primary-white);
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 @media (max-width: 991px) {

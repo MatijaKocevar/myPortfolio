@@ -5,7 +5,7 @@ import { faTable, faPaintBrush, faDesktop, faFileCode } from "@fortawesome/free-
 
 const Service = () => {
   return (
-    <div id="skill" className="skills">
+    <div id="skills" className="skills">
       <h1>Skills</h1>
       <div className="container">
         <div className="row">
@@ -24,8 +24,8 @@ const Service = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faPaintBrush} size="2x" />
               </div>
-              <h3>Basic design skills</h3>
-              <p>Adobe Illustrator, Photoshop, Premiere</p>
+              <h3>Design</h3>
+              <p>Basic skills in Adobe Illustrator, Photoshop & Premiere</p>
             </div>
           </div>
           {/* - */}

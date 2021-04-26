@@ -8,7 +8,7 @@ const Education = () => {
       </div>
       <div className="container education-wrapper">
         <div className="timeline-block timeline-block-left">
-          <div className="edmarker"></div>
+          <div className="marker"></div>
           <div className="timeline-content">
             <h3>Electrotechnician of computer science</h3>
             <h5>High school (.V) / 2004 - 2008</h5>
@@ -17,11 +17,14 @@ const Education = () => {
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-right">
-          <div className="edmarker"></div>
+          <div className="marker"></div>
           <div className="timeline-content">
             <h3>Computer science and information technologies</h3>
             <h5>2008 - 2011 / College (.VI) - unfinished</h5>
-            <p>Gained knowledge of Linux Shell scripting language, and furthered skills in C++, HTML and CSS. </p>
+            <p>
+              Gained knowledge of Linux Shell scripting language, and furthered skills in C++, HTML
+              and CSS.{" "}
+            </p>
           </div>
         </div>
       </div>

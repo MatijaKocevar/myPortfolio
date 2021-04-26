@@ -12,8 +12,11 @@ const Experience = () => {
           <div className="timeline-content">
             <h3>Data visualisation in Microsoft Excel and Google Sheets</h3>
             <h5>Mimovrste d.o.o. / 2019 - 2020</h5>
-            <p>Created semi-automated Excel documents for sales & stock overview connected with internal ERP system. 
-              Developed an automated system of price checking using Google App Scripts & Sheets.</p>
+            <p>
+              Created semi-automated Excel documents for sales & stock overview connected with
+              internal ERP system. Developed an automated system of price checking using Google App
+              Scripts & Sheets.
+            </p>
           </div>
         </div>
         {/* - */}

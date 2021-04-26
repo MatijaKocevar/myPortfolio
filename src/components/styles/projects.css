@@ -37,7 +37,7 @@
 
 .project-wrapper:hover .overlay {
   opacity: 0.6;
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .projects-icon {
@@ -50,7 +50,7 @@
 
 .project-wrapper:hover .projects-icon {
   color: var(--primary-blue);
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .popupbox-wrapper {

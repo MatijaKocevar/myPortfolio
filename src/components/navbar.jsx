@@ -5,47 +5,17 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
-  let startingOffset =
-    window.innerWidth < 768
-      ? -61
-      : window.innerWidth < 991
-      ? -61
-      : window.innerWidth < 1199
-      ? -61
-      : -86;
+  let startingOffset = window.innerWidth < 1199 ? -61 : -86;
 
-  let startingToggle =
-    window.innerWidth < 768
-      ? "collapse"
-      : window.innerWidth < 991
-      ? "collapse"
-      : window.innerWidth < 1199
-      ? "keep"
-      : "keep";
+  let startingToggle = window.innerWidth < 1199 ? "collapse" : "keep";
 
   const [offset, setOffset] = useState(startingOffset);
 
   const [toggle, setToggle] = useState(startingToggle);
 
   window.addEventListener("resize", () => {
-    setOffset(
-      window.innerWidth < 768
-        ? -61
-        : window.innerWidth < 991
-        ? -61
-        : window.innerWidth < 1199
-        ? -61
-        : -86
-    );
-    setToggle(
-      window.innerWidth < 768
-        ? "collapse"
-        : window.innerWidth < 991
-        ? "collapse"
-        : window.innerWidth < 1199
-        ? "keep"
-        : "keep"
-    );
+    setOffset(window.innerWidth < 1199 ? -61 : -86);
+    setToggle(window.innerWidth < 1199 ? "collapse" : "keep");
   });
 
   return (
