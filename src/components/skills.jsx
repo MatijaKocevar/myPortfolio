@@ -48,7 +48,7 @@ const Service = () => {
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
               <h3>Web development</h3>
-              <p>Basic HTML, CSS & Javascript </p>
+              <p>Basic HTML, CSS, Javascript, C#, .NET core</p>
             </div>
           </div>
         </div>

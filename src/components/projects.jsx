@@ -1,5 +1,6 @@
 import React from "react";
 import project1 from "../images/project1.png";
+import project2 from "../images/project2.png";
 import woi from "../images/woi.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +19,7 @@ const Projects = () => {
         <b>Link:</b>{" "}
         <a
           className="hyper-link"
-          onClick={() => window.open("https://github.com/MatijaKocevar/myPortfolio/tree/main")}
+          onClick={() => window.open("https://github.com/MatijaKocevar/myPortfolio")}
         >
           GitHub
         </a>
@@ -41,10 +42,13 @@ const Projects = () => {
   const openPopupboxProject2 = () => {
     const content = (
       <>
-        <img className="projects-image-popupbox" src={woi} alt="..." />
-        <p>...</p>
+        <img className="projects-image-popupbox" src={project2} alt="holidays calculator" />
+        <p>A holiday calculator for Slovenian holidays. Made with .NET core and Vue JS</p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
+        <a
+          className="hyper-link"
+          onClick={() => window.open("https://github.com/MatijaKocevar/HolidaysApi")}
+        >
           GitHub
         </a>
       </>
@@ -53,7 +57,7 @@ const Projects = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "...",
+        text: "Holidays calculator",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -128,11 +132,11 @@ const Projects = () => {
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject2}>
             <div className="project-wrapper">
-              <img className="projects-image" src={woi} alt="Project 2..." />
+              <img className="projects-image" src={project2} alt="Project 2..." />
               <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
               <div className="overlay"></div>
             </div>
-            <h3>...</h3>
+            <h3>Holidays calculator</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject3}>
