@@ -97,28 +97,24 @@ const Footer = () => {
                 <FacebookShareButton
                   url={"https://matijakocevar.github.io/myPortfolio/"}
                   quote={"Matija Kočevar's portfolio"}
-                  hashtag="#ReactJS"
                 >
                   <FacebookIcon className="mx-3" size={36} />
                 </FacebookShareButton>
                 <TwitterShareButton
                   url={"https://matijakocevar.github.io/myPortfolio/"}
                   quote={"Matija Kočevar's portfolio"}
-                  hashtag="#ReactJS"
                 >
                   <TwitterIcon className="mx-3" size={36} />
                 </TwitterShareButton>
                 <RedditShareButton
                   url={"https://matijakocevar.github.io/myPortfolio/"}
                   quote={"Matija Kočevar's portfolio"}
-                  hashtag="#ReactJS"
                 >
                   <RedditIcon className="mx-3" size={36} />
                 </RedditShareButton>
                 <LinkedinShareButton
                   url={"https://matijakocevar.github.io/myPortfolio/"}
                   quote={"Matija Kočevar's portfolio"}
-                  hashtag="#ReactJS"
                 >
                   <LinkedinIcon className="mx-3" size={36} />
                 </LinkedinShareButton>
