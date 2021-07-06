@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
+import project3 from "../images/project3.png";
 import woi from "../images/woi.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,6 +19,7 @@ const Projects = () => {
         <p>My first webpage, made using ReactJS</p>
         <b>Link:</b>{" "}
         <a
+          href="/#"
           className="hyper-link"
           onClick={() => window.open("https://github.com/MatijaKocevar/myPortfolio")}
         >
@@ -46,6 +48,7 @@ const Projects = () => {
         <p>A holiday calculator for Slovenian holidays. Made with .NET core and Vue JS</p>
         <b>Link:</b>{" "}
         <a
+          href="/#"
           className="hyper-link"
           onClick={() => window.open("https://github.com/MatijaKocevar/HolidaysApi")}
         >
@@ -70,10 +73,17 @@ const Projects = () => {
   const openPopupboxProject3 = () => {
     const content = (
       <>
-        <img className="projects-image-popupbox" src={woi} alt="..." />
-        <p>...</p>
+        <img className="projects-image-popupbox" src={project3} alt="..." />
+        <p>
+          An application to show differences between two base 64 encoded strings. Uses an SQL
+          database to store data. Developed in .NET core and VUE JS.
+        </p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
+        <a
+          href="/#"
+          className="hyper-link"
+          onClick={() => window.open("https://github.com/MatijaKocevar/diffs")}
+        >
           GitHub
         </a>
       </>
@@ -82,7 +92,7 @@ const Projects = () => {
     const config = {
       titleBar: {
         enable: true,
-        text: "...",
+        text: "Diffing API",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -98,7 +108,11 @@ const Projects = () => {
         <img className="projects-image-popupbox" src={woi} alt="..." />
         <p>...</p>
         <b>Link:</b>{" "}
-        <a className="hyper-link" onClick={() => window.open("https://github.com/MatijaKocevar")}>
+        <a
+          href="/#"
+          className="hyper-link"
+          onClick={() => window.open("https://github.com/MatijaKocevar")}
+        >
           GitHub
         </a>
       </>
@@ -141,11 +155,11 @@ const Projects = () => {
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject3}>
             <div className="project-wrapper">
-              <img className="projects-image" src={woi} alt="Project 3..." />
+              <img className="projects-image" src={project3} alt="Project 3..." />
               <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
               <div className="overlay"></div>
             </div>
-            <h3>...</h3>
+            <h3>Diffing API</h3>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6" onClick={openPopupboxProject4}>
