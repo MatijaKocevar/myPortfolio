@@ -18,13 +18,12 @@ const Projects = () => {
         <img className="projects-image-popupbox" src={project1} alt="Online resume" />
         <p>My first webpage, made using ReactJS</p>
         <b>Link:</b>{" "}
-        <a
-          href="/#"
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/MatijaKocevar/myPortfolio")}
         >
           GitHub
-        </a>
+        </button>
       </>
     );
 
@@ -47,13 +46,12 @@ const Projects = () => {
         <img className="projects-image-popupbox" src={project2} alt="holidays calculator" />
         <p>A holiday calculator for Slovenian holidays. Made with .NET core and Vue JS</p>
         <b>Link:</b>{" "}
-        <a
-          href="/#"
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/MatijaKocevar/HolidaysApi")}
         >
           GitHub
-        </a>
+        </button>
       </>
     );
 
@@ -79,13 +77,12 @@ const Projects = () => {
           database to store data. Developed in .NET core and VUE JS.
         </p>
         <b>Link:</b>{" "}
-        <a
-          href="/#"
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/MatijaKocevar/diffs")}
         >
           GitHub
-        </a>
+        </button>
       </>
     );
 
@@ -108,13 +105,12 @@ const Projects = () => {
         <img className="projects-image-popupbox" src={woi} alt="..." />
         <p>...</p>
         <b>Link:</b>{" "}
-        <a
-          href="/#"
+        <button
           className="hyper-link"
           onClick={() => window.open("https://github.com/MatijaKocevar")}
         >
           GitHub
-        </a>
+        </button>
       </>
     );
 

@@ -66,9 +66,9 @@
 }
 
 .hyper-link {
-  cursor: pointer;
-  color: var(--primary-dark);
-  padding-bottom: 1rem;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 .hyper-link:hover {
