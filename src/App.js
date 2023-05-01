@@ -10,7 +10,7 @@ import "./components/styles/projects.css";
 import "./components/styles/skills.css";
 import "./components/styles/interests.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 import NavBar from "./components/navbar";
 import Header from "./components/header";
 import AboutMe from "./components/aboutMe";
