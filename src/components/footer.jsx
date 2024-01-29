@@ -25,8 +25,6 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="fpos">
-              <a href="tel:+38670892271">070 892 271</a>
-              <br />
               <a href="mailto: matija.kocev@gmail.com">matija.kocev@gmail.com</a>
               <p>Ljubljana, Slovenia</p>
             </div>
